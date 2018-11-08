@@ -10,6 +10,7 @@ Currently the versioning policy of this project follows [Semantic Versioning v2.
 * Fix some out-of-bounds reports from LGTM
 * Update asm to 7.0 for better Java 11 support ([#785](https://github.com/spotbugs/spotbugs/pull/785))
 * Ignore @FXML annotated fields in UR\_UNIT\_READ ([#702](https://github.com/spotbugs/spotbugs/issues/702))
+* Add new detector IRA\_INEFFICIENT\_REPLACEALL for detecting usage of String.replaceAll where no regex is being used ([#705](https://github.com/spotbugs/spotbugs/issues/705))
 
 ### CHANGED
 * Allow parallel workspace builds in Eclipse with Spotbugs installed
